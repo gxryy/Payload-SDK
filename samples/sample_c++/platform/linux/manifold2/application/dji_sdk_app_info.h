@@ -29,23 +29,23 @@
 /* Includes ------------------------------------------------------------------*/
 
 #ifdef __cplusplus
-extern "C" {
+extern "C"
+{
 #endif
 
 /* Exported constants --------------------------------------------------------*/
 // ATTENTION: User must goto https://developer.dji.com/user/apps/#all to create your own dji sdk application, get dji sdk application
 // information then fill in the application information here.
-#define USER_APP_NAME               "your_app_name"
-#define USER_APP_ID                 "your_app_id"
-#define USER_APP_KEY                "your_app_key"
-#define USER_APP_LICENSE            "your_app_license"
-#define USER_DEVELOPER_ACCOUNT      "your_developer_account"
-#define USER_BAUD_RATE              "460800"
+#define USER_APP_NAME "DJIX"
+#define USER_APP_ID "141522"
+#define USER_APP_KEY "0d9d77a97704935be75fd4b9a495e67"
+#define USER_APP_LICENSE "A+QJYnnxmD1Z4HsAjEuQnlDcuXrL0dtIJ+GhKp58ZPaym7hI2LGMPz/AhBqHhDg+OS5JxhkEB/yuuq2ACB7+5RbZ5hP14Np3ugRevBBZdPVcMLdIPTSNllQZSwG9akH9PiXVgU9hxTw2/jhRjLbLdGcK7YUZmk8sK82e2PfJbQ0Zvh9SO1VVk0keETp8TjfqZw4p3Cv/UAt38Gsry7wzGMup/5ZTrgNbhMVFJNUAtJ3ZcvTUwAVzC+zM0pbeUODoRdI+HqfaOSqc5taQPzaQMjMkL47U+mdHXOxtCzDK+shpJTO4sv6SCcjtR7Z30/HpIlJ1ho5bdGsqtwRPS5nENg=="
+#define USER_DEVELOPER_ACCOUNT "garysohjy"
+#define USER_BAUD_RATE "460800"
 
-/* Exported types ------------------------------------------------------------*/
+    /* Exported types ------------------------------------------------------------*/
 
-/* Exported functions --------------------------------------------------------*/
-
+    /* Exported functions --------------------------------------------------------*/
 
 #ifdef __cplusplus
 }

@@ -103,6 +103,7 @@ if (FFMPEG_FOUND)
     endif ()
 
     target_link_libraries(${PROJECT_NAME} ${FFMPEG_LIBRARIES})
+    target_link_libraries(${PROJECT_NAME} swresample) 
     include_directories(${FFMPEG_INCLUDE_DIR})
     add_definitions(-DFFMPEG_INSTALLED)
 else ()
